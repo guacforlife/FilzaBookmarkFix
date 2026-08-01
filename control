@@ -1,0 +1,9 @@
+Package: com.guacforlife.filzabookmarkfix
+Name: FilzaBookmarkFix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Repairs Filza bookmarks and recents that break when roothide's jbroot UUID changes. Rewrites stale absolute paths to their jbroot-relative form so they never go stale again.
+Maintainer: guacforlife
+Author: guacforlife
+Section: Tweaks
+Depends: mobilesubstrate
